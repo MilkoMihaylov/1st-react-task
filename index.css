@@ -1,0 +1,53 @@
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.film {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.film h2 {
+  margin-bottom: 10px;
+}
+
+.film button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.film button:hover {
+  background-color: #0056b3;
+}
+
+.film-details {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.film ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.film ul li {
+  margin: 3px 0;
+}
+
+.film-details a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.film-details a:hover {
+  text-decoration: underline;
+}
